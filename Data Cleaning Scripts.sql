@@ -1,4 +1,4 @@
---Cleaning Data in SQL Queries
+-- Cleaning Data in SQL Queries
 
 SELECT * FROM dbo.TehranHousingData
 
@@ -83,5 +83,6 @@ WHERE cnt > 1
 
 ALTER TABLE dbo.TehranHousingData
 DROP COLUMN PropertyAddress, LegalReference, Acreage, TaxDistrict, LandValue, BuildingValue, FullBath, HalfBath
+
 
 SELECT * FROM TehranHousingData
