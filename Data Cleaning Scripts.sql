@@ -1,4 +1,4 @@
--- Cleaning Data in SQL Queries
+-- Data Cleaning Queries for Mock Tehran Housing Data
 
 SELECT * FROM dbo.TehranHousingData
 
@@ -86,3 +86,4 @@ DROP COLUMN PropertyAddress, LegalReference, Acreage, TaxDistrict, LandValue, Bu
 
 
 SELECT * FROM TehranHousingData
+
